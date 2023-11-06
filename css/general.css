@@ -11,9 +11,11 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  overflow-x: hidden;
 }
 /* *************** */
 /* GENRAL REUSABLE */
+/* *************** */
 .container {
   max-width: 120rem;
   margin: 0 auto;
@@ -101,8 +103,6 @@ body {
 .btn--outline:hover,
 .btn--outline:active {
   background-color: #fdf2e9;
-  /* border: 3px solid #fff; */
-  /* trick */
   box-shadow: 0 0 0 3px #fff;
 }
 .list {
